@@ -1,0 +1,176 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.navbar>ol {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.navbar>ol>li {
+    list-style-type: none;
+}
+
+.navbar>ol>li>a {
+    text-decoration: none;
+    color: #8FC7D6;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.home>img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.continentes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+}
+
+.continentes>a {
+    text-decoration: none;
+    color: #A2454F;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.continentes>a:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #262A47;
+    padding: 10px;
+}
+
+a.card {
+    text-decoration: none;
+}
+
+.card {
+    border: solid 1px #6DAA9B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 25%;
+    background-color: #262A47;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    
+}
+
+.card>p {
+    margin: 10px;
+    color: #E59654;
+}
+
+.card>img {
+    width: 200px;
+    padding: 20px;
+}
+
+.card>a {
+    color: #A2454F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card>a:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    background-color: #262A47;
+    color: #8FC7D6;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #D15859;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.detailcontainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #A2454F;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.detailcontainer>a {
+    text-decoration: none;
+    color: #6DAA9B;
+    margin: 5px;
+}
+
+.detailcontainer>p{
+    color: #E79558;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.detailcontainer>img {
+    height: 150px;
+    padding: 30px;
+} 
+
+.detailcontainer>img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 700px){
+    .navbar>ol>li>a { 
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: medium;
+    } 
+
+    .card>img{
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    h3 {
+        font-size: medium;
+    }
+
+    .detailcontainer>p {
+        font-size: medium;
+    }
+
+    .detailcontainer>a {
+        font-size: medium;
+    }
+
+    .detailcontainer>img{
+        width: 40%;
+        height: 20%;
+    }
+}
